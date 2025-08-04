@@ -1,7 +1,7 @@
 {
   "name": "Map&MatchApp",
   "lastModified": "2024-09-03T20:26:07Z",
-  "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/4202f27f-1db0-40e8-9244-cde8b1bee489?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWC4AAMX6DD%2F20250731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250731T000000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=097b7a686835cc04c92bac662c139a216d9a2353c2b9c1b2ed0f76c01b114dc6",
+  "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/4202f27f-1db0-40e8-9244-cde8b1bee489?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWC4AAMX6DD%2F20250803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250803T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f1f56f21fcdbe3bbbf6b9184b31576e6823414b550d880b93dd23692fe629cfa",
   "version": "2246926036208564791",
   "role": "viewer",
   "editorType": "figma",
