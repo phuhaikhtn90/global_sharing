@@ -68,7 +68,13 @@
             "lineHeightUnit": "PIXELS"
           },
           "effects": [],
-          "interactions": []
+          "interactions": [],
+          "padding": {
+            "left": 20.0,
+            "top": 16.0,
+            "right": 322.0,
+            "bottom": 14.0
+          }
         },
         {
           "id": "I2:97;31:150",
@@ -110,7 +116,13 @@
                     "horizontal": "RIGHT"
                   },
                   "effects": [],
-                  "interactions": []
+                  "interactions": [],
+                  "padding": {
+                    "left": 0.0,
+                    "top": 6.0,
+                    "right": 15.0,
+                    "bottom": 0.0
+                  }
                 },
                 {
                   "id": "I2:97;31:153",
@@ -142,7 +154,13 @@
                     "horizontal": "RIGHT"
                   },
                   "effects": [],
-                  "interactions": []
+                  "interactions": [],
+                  "padding": {
+                    "left": 5.0,
+                    "top": 4.0,
+                    "right": 10.0,
+                    "bottom": 0.0
+                  }
                 },
                 {
                   "id": "I2:97;31:154",
@@ -174,7 +192,13 @@
                     "horizontal": "RIGHT"
                   },
                   "effects": [],
-                  "interactions": []
+                  "interactions": [],
+                  "padding": {
+                    "left": 10.0,
+                    "top": 2.0,
+                    "right": 5.0,
+                    "bottom": 0.0
+                  }
                 },
                 {
                   "id": "I2:97;31:155",
@@ -206,7 +230,13 @@
                     "horizontal": "RIGHT"
                   },
                   "effects": [],
-                  "interactions": []
+                  "interactions": [],
+                  "padding": {
+                    "left": 15.0,
+                    "top": 0.0,
+                    "right": 0.0,
+                    "bottom": 0.0
+                  }
                 }
               ],
               "fills": [
@@ -235,7 +265,13 @@
                 "horizontal": "SCALE"
               },
               "effects": [],
-              "interactions": []
+              "interactions": [],
+              "padding": {
+                "left": 0.0,
+                "top": 0.0,
+                "right": 0.0,
+                "bottom": 0.0
+              }
             }
           ],
           "clipsContent": false,
@@ -260,7 +296,25 @@
             "horizontal": "LEFT"
           },
           "effects": [],
-          "interactions": []
+          "interactions": [],
+          "padding": {
+            "left": 275.0,
+            "top": 19.0,
+            "right": 82.0,
+            "bottom": 17.0
+          },
+          "siblingsLayout": [
+            {
+              "targetId": "I2:97;31:156",
+              "relation": "sameRow",
+              "distance": 28.0
+            },
+            {
+              "targetId": "I2:97;31:161",
+              "relation": "sameRow",
+              "distance": 53.0
+            }
+          ]
         },
         {
           "id": "I2:97;31:156",
@@ -302,7 +356,13 @@
                     "horizontal": "RIGHT"
                   },
                   "effects": [],
-                  "interactions": []
+                  "interactions": [],
+                  "padding": {
+                    "left": 0.0,
+                    "top": 0.0,
+                    "right": 0.0,
+                    "bottom": 6.22
+                  }
                 },
                 {
                   "id": "I2:97;31:159",
@@ -334,7 +394,13 @@
                     "horizontal": "RIGHT"
                   },
                   "effects": [],
-                  "interactions": []
+                  "interactions": [],
+                  "padding": {
+                    "left": 2.66,
+                    "top": 3.79,
+                    "right": 2.66,
+                    "bottom": 3.54
+                  }
                 },
                 {
                   "id": "I2:97;31:160",
@@ -366,7 +432,13 @@
                     "horizontal": "RIGHT"
                   },
                   "effects": [],
-                  "interactions": []
+                  "interactions": [],
+                  "padding": {
+                    "left": 5.32,
+                    "top": 7.59,
+                    "right": 5.32,
+                    "bottom": -0.0
+                  }
                 }
               ],
               "fills": [
@@ -395,7 +467,13 @@
                 "horizontal": "LEFT"
               },
               "effects": [],
-              "interactions": []
+              "interactions": [],
+              "padding": {
+                "left": 0.0,
+                "top": 0.0,
+                "right": 0.0,
+                "bottom": 0.0
+              }
             }
           ],
           "clipsContent": false,
@@ -420,7 +498,25 @@
             "horizontal": "LEFT"
           },
           "effects": [],
-          "interactions": []
+          "interactions": [],
+          "padding": {
+            "left": 303.0,
+            "top": 19.0,
+            "right": 56.73,
+            "bottom": 16.03
+          },
+          "siblingsLayout": [
+            {
+              "targetId": "I2:97;31:150",
+              "relation": "sameRow",
+              "distance": 28.0
+            },
+            {
+              "targetId": "I2:97;31:161",
+              "relation": "sameRow",
+              "distance": 25.0
+            }
+          ]
         },
         {
           "id": "I2:97;31:161",
@@ -462,7 +558,13 @@
                     "horizontal": "RIGHT"
                   },
                   "effects": [],
-                  "interactions": []
+                  "interactions": [],
+                  "padding": {
+                    "left": 0.0,
+                    "top": 0.0,
+                    "right": 1.98,
+                    "bottom": 0.0
+                  }
                 },
                 {
                   "id": "I2:97;31:164",
@@ -494,7 +596,13 @@
                     "horizontal": "RIGHT"
                   },
                   "effects": [],
-                  "interactions": []
+                  "interactions": [],
+                  "padding": {
+                    "left": 25.65,
+                    "top": 5.0,
+                    "right": -0.0,
+                    "bottom": 4.0
+                  }
                 },
                 {
                   "id": "I2:97;31:165",
@@ -526,7 +634,13 @@
                     "horizontal": "RIGHT"
                   },
                   "effects": [],
-                  "interactions": []
+                  "interactions": [],
+                  "padding": {
+                    "left": 2.3,
+                    "top": 2.33,
+                    "right": 4.48,
+                    "bottom": 2.34
+                  }
                 }
               ],
               "clipsContent": false,
@@ -563,7 +677,13 @@
                 "horizontal": "SCALE"
               },
               "effects": [],
-              "interactions": []
+              "interactions": [],
+              "padding": {
+                "left": 0.0,
+                "top": 0.0,
+                "right": 0.0,
+                "bottom": 0.0
+              }
             }
           ],
           "clipsContent": false,
@@ -588,7 +708,25 @@
             "horizontal": "LEFT"
           },
           "effects": [],
-          "interactions": []
+          "interactions": [],
+          "padding": {
+            "left": 328.0,
+            "top": 18.0,
+            "right": 20.02,
+            "bottom": 15.0
+          },
+          "siblingsLayout": [
+            {
+              "targetId": "I2:97;31:150",
+              "relation": "sameRow",
+              "distance": 53.0
+            },
+            {
+              "targetId": "I2:97;31:156",
+              "relation": "sameRow",
+              "distance": 25.0
+            }
+          ]
         }
       ],
       "clipsContent": false,
@@ -624,7 +762,13 @@
         "horizontal": "SCALE"
       },
       "effects": [],
-      "interactions": []
+      "interactions": [],
+      "padding": {
+        "left": 0.0,
+        "top": 0.0,
+        "right": 0.0,
+        "bottom": 0.0
+      }
     }
   ],
   "clipsContent": false,
