@@ -1,0 +1,40 @@
+Prompt:
+Hãy dựa vào nội dung thông tin Figma từ json bên dưới để review source code theo quan điểm của 1 người UI review theo các yêu cầu sau:
+- Hãy phán đoán element trong json tương ứng với View nào trong code dựa trên các yếu tố sau:
+    - mối quan hệ giữa các element (cha - con, siblings layout) và padding
+    - Nếu json có type là Text thì hãy dựa vào giá trị property Name để phán đoán tên biến hoặc value từ SwiftUI code. Ngoài ra có thể dựa vào text color hoặc fontsize có thể
+
+Output:
+
+## UI Review từ JSON Figma
+
+### 1. Xác định View & Mapping sang SwiftUI code
+- **Element ID:** I2:97;31:149  
+  **Type:** TEXT  
+  **Name:** "9:41"  
+  **Gợi ý mapping:** Có thể là `Text("9:41")` trong SwiftUI.  
+  **Style:** fontSize ~17, màu chữ #000000 → gợi ý `.font(.system(size: 17)) .foregroundColor(.black)`  
+  **Padding:** L20, T16 → trong SwiftUI có thể là `.padding(.leading, 20).padding(.top, 16)`  
+  **Siblings Layout:** sameRow với I2:97;31:152, khoảng cách 40px → gợi ý dùng `HStack(spacing: 40)`
+
+- **Element ID:** I2:97;31:152  
+  **Type:** TEXT  
+  **Name:** "Carrier"  
+  **Gợi ý mapping:** `Text("Carrier")`  
+  **Style:** fontSize ~12, màu chữ #666666 → `.font(.system(size: 12)).foregroundColor(Color.gray)`  
+  **Siblings Layout:** sameRow với I2:97;31:149 (bên trái), khoảng cách 40px.
+
+---
+
+### 2. Review mối quan hệ cha – con
+- **Parent View:** Frame ID 2:96  
+  Chứa các Text ở cùng hàng → phù hợp để dùng `HStack` hoặc `LazyHStack`.  
+  Padding giữa frame và các con đã rõ ràng từ JSON → cần đảm bảo padding trong code khớp với giá trị JSON.
+
+---
+
+### 3. Nhận xét & Gợi ý chỉnh sửa
+- Khoảng cách giữa các element nên sử dụng `spacing` trong HStack thay vì chèn thêm `.padding(.leading)` cho từng phần tử.
+- Màu chữ và font size cần match với style trong Figma để giữ đúng thiết kế.
+- Nên group các phần tử có `sameRow` thành chung 1 container, đảm bảo layout ổn định khi responsive.
+
